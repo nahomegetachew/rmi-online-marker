@@ -5,13 +5,29 @@
  */
 package rmi.market;
 
+import java.io.Serializable;
+
 /**
  *
  * @author wolfe
  */
-public class item {
-    String name;
-    float price;
-    int quantity;    
+public class item implements Serializable{
+    public String name;
+    public double price;
+    public int quantity;  
+    public String id;
+    public String postedby;
+    public int ownerAc;
+//    Hashtable<int ,int> ls=new Hashtable<int ,int>();
+    
+    public item(){};
+    public item(String name, String id,String postedby,double price,int quantity,int ownerAc){
+        this.name=name;
+        this.id=id;
+        this.price=price;
+        this.quantity=quantity;
+        this.postedby=postedby;
+        this.ownerAc=ownerAc;
+    }
     
 }
