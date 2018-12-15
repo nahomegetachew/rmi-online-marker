@@ -103,7 +103,7 @@ public class marketServant extends UnicastRemoteObject implements rmiMarketInter
 
         item u = new item("vitz", "vitz2008", "fasil", 5000, 5, 10003);
         item v = new item("bmw", "bmw", "andu", 5000, 5, 10006);
-        item w = new item("glock", "glock19", "mekdem", 5000, 5, 10007);
+        item w = new item("glock", "glock19", "mekdem", 5000, 5, 10005);
         item x = new item("Toshiba", "a665", "mente", 5000, 5, 10002);
         item y = new item("motorbike", "ducat", "mafi", 5000, 5, 10004);
         item z = new item("damas", "suz15", "nahome", 5000, 5, 10001);
