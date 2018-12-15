@@ -5,7 +5,7 @@
  */
 package rmi.market;
 
-import rmi.market.bank.*;
+
 import java.io.Serializable;
 import java.util.Hashtable;
 import rmi.market.item;
